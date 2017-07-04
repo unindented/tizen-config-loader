@@ -1,0 +1,37 @@
+{
+  "name": "tizen-config-loader",
+  "description": "Help deal with Tizen config files.",
+  "version": "0.1.0",
+  "license": "MIT",
+  "author": {
+    "name": "Daniel Perez Alvarez",
+    "email": "unindented@gmail.com",
+    "url": "http://unindented.org/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/unindented/tizen-config-loader.git"
+  },
+  "scripts": {
+    "test:lint": "eslint .",
+    "test:unit": "nodeunit test/loader.js",
+    "test": "run-s test:*"
+  },
+  "dependencies": {
+    "async": "^2.5.0",
+    "loader-utils": "^1.1.0",
+    "lodash.get": "^4.4.2",
+    "lodash.template": "^4.4.0",
+    "xml2js": "^0.4.17"
+  },
+  "devDependencies": {
+    "eslint": "^4.1.1",
+    "eslint-config-standard": "^10.2.1",
+    "eslint-plugin-import": "^2.6.1",
+    "eslint-plugin-node": "^5.1.0",
+    "eslint-plugin-promise": "^3.5.0",
+    "eslint-plugin-standard": "^3.0.1",
+    "nodeunit": "^0.11.1",
+    "npm-run-all": "^4.0.2"
+  }
+}

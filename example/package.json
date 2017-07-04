@@ -1,0 +1,25 @@
+{
+  "name": "foobar",
+  "description": "Just an example.",
+  "version": "1.0.0",
+  "license": "MIT",
+  "private": true,
+  "author": {
+    "name": "Daniel Perez Alvarez",
+    "email": "unindented@gmail.com",
+    "url": "https://unindented.org/"
+  },
+  "widgetId": "https://github.com/unindented/tizen-config-loader",
+  "packageId": "foobar",
+  "packageName": "Foobar",
+  "packageDescription": "An example of how to use this loader.",
+  "scripts": {
+    "build": "webpack"
+  },
+  "devDependencies": {
+    "file-loader": "^0.11.2",
+    "html-webpack-plugin": "^2.29.0",
+    "tizen-config-loader": "../",
+    "webpack": "^3.0.0"
+  }
+}
